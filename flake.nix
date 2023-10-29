@@ -43,6 +43,13 @@
           ./gui.nix
         ];
 
+        # Optionally use extraSpecialArgs
+        # to pass through arguments to home.nix
+        extraSpecialArgs = {
+        inherit unstable;
+        };
+      };
+
       homeConfigurations."jonathan@vr" = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
         # Specify your home configuration modules here, for example,
