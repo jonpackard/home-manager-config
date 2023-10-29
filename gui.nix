@@ -24,7 +24,6 @@
       pkgs.discord
       pkgs.jellyfin-mpv-shim
       pkgs.vlc
-      pkgs.lighthouse-steamvr # Power management for SteamVR lighthouses
       unstable.prismlauncher
       pkgs.virt-manager
   ];
