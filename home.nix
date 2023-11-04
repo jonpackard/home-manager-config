@@ -19,7 +19,10 @@
     config = {
       allowUnfree = true;
       allowUnfreePredicate = (_: true);
-      permittedInsecurePackages = [ "mailspring-1.11.0" ];
+      permittedInsecurePackages = [
+        # "mailspring-1.11.0"
+        "electron-24.8.6"
+      ];
     };
   };
 
