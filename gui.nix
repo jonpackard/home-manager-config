@@ -1,4 +1,4 @@
-{ config, pkgs, unstable, ... }:
+{ config, pkgs, unstable, nixos-22-11, ... }:
 
 # This defines packages that should only be installed on a system with a GUI.
 
@@ -26,5 +26,6 @@
       pkgs.vlc
       unstable.prismlauncher
       pkgs.virt-manager
+      nixos-22-11.pcloud
   ];
 }
