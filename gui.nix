@@ -29,6 +29,6 @@
       nixos-22-11.pcloud
       pkgs.gimp
       pkgs.inkscape
-      pkgs.gnome-tweaks
+      pkgs.gnome.gnome-tweaks
   ];
 }
