@@ -27,5 +27,7 @@
       unstable.prismlauncher
       pkgs.virt-manager
       nixos-22-11.pcloud
+      pkgs.gimp
+      pkgs.inkscape
   ];
 }
