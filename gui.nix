@@ -30,5 +30,6 @@
       pkgs.gimp
       pkgs.inkscape
       pkgs.gnome.gnome-tweaks
+      unstable.signal-desktop
   ];
 }
