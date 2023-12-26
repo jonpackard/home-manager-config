@@ -31,5 +31,6 @@
       pkgs.inkscape
       pkgs.gnome.gnome-tweaks
       unstable.signal-desktop
+      pkgs.freerdp
   ];
 }
